@@ -38,5 +38,6 @@ The code was run on Amazon EMR cluster configured as follows:
 -`EC2 key pair:` Proceed without an EC2 key pair or feel free to use one if you'd like
 
 To execute the ETL to read the data, process it and store the analytics tables onto an S3:
-python etl.py
+
+```python etl.py```
 
