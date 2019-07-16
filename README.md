@@ -28,9 +28,13 @@ etl.py must be edited to add the address of the destination S3 bucket.
 
 The code was run on Amazon EMR cluster configured as follows:
 -`Release:` emr-5.20.0 or later
+
 -`Applications:` Spark: Spark 2.4.0 on Hadoop 2.8.5 YARN with Ganglia 3.7.2 and Zeppelin 0.8.0
+
 -`Instance type:` m3.xlarge
+
 -`Number of instance:` 3
+
 -`EC2 key pair:` Proceed without an EC2 key pair or feel free to use one if you'd like
 
 To execute the ETL to read the data, process it and store the analytics tables onto an S3:
